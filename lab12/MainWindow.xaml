@@ -16,22 +16,106 @@
                 <EventTrigger RoutedEvent="Image.MouseDown">
                     <BeginStoryboard>
                         <Storyboard AutoReverse="True">
-                            <DoubleAnimation From="0" To="100" Duration="0:0:2" Storyboard.TargetProperty="(Canvas.Left)" AutoReverse="False" />
+                            <DoubleAnimation From="20" To="70" Duration="0:0:2" Storyboard.TargetProperty="(Canvas.Left)" AutoReverse="False" />
 
-                         
-                          
+
+
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
+        <Image  HorizontalAlignment="Left" Width="95" Height="94"  
+                 VerticalAlignment="Top"  Source="RU_road_sign_1.27.svg.png" Canvas.Left="132" Canvas.Top="1">
+            <Image.RenderTransform>
+                <TranslateTransform x:Name="MoveMyImage4" X="2" Y="2"/>
+            </Image.RenderTransform>
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="Image.MouseDown">
+                    <BeginStoryboard>
+                        <Storyboard AutoReverse="True">
+                            <DoubleAnimation From="130" To="400" Duration="0:0:2" Storyboard.TargetProperty="(Canvas.Left)" AutoReverse="False" />
+
+
+
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
+        <Image  Width="87" Height="90"  
+                  Source="/RU_road_sign_1.31.svg.png" HorizontalAlignment="Center" Canvas.Left="140" VerticalAlignment="Top" Canvas.Top="132" >
+            <Image.RenderTransform>
+                <TranslateTransform x:Name="MoveMyImage2" X="2" Y="2"/>
+            </Image.RenderTransform>
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="Image.MouseDown">
+                    <BeginStoryboard>
+                        <Storyboard AutoReverse="True">
+                            <DoubleAnimation From="130" To="400" Duration="0:0:2" Storyboard.TargetProperty="(Canvas.Left)" AutoReverse="False" />
+
+
+
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>
             </Image.Triggers>
         </Image>
 
-        <Image Source="/RU_road_sign_1.31.svg.png" HorizontalAlignment="Center" Canvas.Left="140" VerticalAlignment="Top" Canvas.Top="132" />
+        <Image  Width="87" Height="90"  
+                  Source="/RU_road_sign_1.31.svg.png" HorizontalAlignment="Left" Canvas.Left="18" VerticalAlignment="Top" Canvas.Top="132" >
+            <Image.RenderTransform>
+                <TranslateTransform x:Name="MoveMyImage3" X="2" Y="2"/>
+            </Image.RenderTransform>
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="Image.MouseDown">
+                    <BeginStoryboard>
+                        <Storyboard AutoReverse="True">
+                            <DoubleAnimation From="20" To="70" Duration="0:0:2" Storyboard.TargetProperty="(Canvas.Left)" AutoReverse="False" />
 
-        <Image Source="/RU_road_sign_1.31.svg.png" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="132" Canvas.Left="32" />
-        <Image Source="/RU_road_sign_1.32.svg.png" Canvas.Left="140" Canvas.Top="244" HorizontalAlignment="Center" VerticalAlignment="Top" />
-        <Image Source="/RU_road_sign_1.32.svg.png" Canvas.Top="244" Canvas.Left="32" HorizontalAlignment="Center" VerticalAlignment="Top" />
-        <Image Source="/RU_road_sign_1.27.svg.png" HorizontalAlignment="Left" Canvas.Left="140" Canvas.Top="14" VerticalAlignment="Top" />
+
+
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
+        <Image  Width="87" Height="90"  
+           Source="/RU_road_sign_1.32.svg.png" Canvas.Left="140" Canvas.Top="235" HorizontalAlignment="Center" VerticalAlignment="Top" >
+            <Image.RenderTransform>
+                <TranslateTransform x:Name="MoveMyImage1" X="2" Y="2"/>
+            </Image.RenderTransform>
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="Image.MouseDown">
+                    <BeginStoryboard>
+                        <Storyboard AutoReverse="True">
+                            <DoubleAnimation  From="130" To="400" Duration="0:0:2" Storyboard.TargetProperty="(Canvas.Left)" AutoReverse="False" />
+
+
+
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
+        <Image  Width="87" Height="90"  
+           Source="/RU_road_sign_1.32.svg.png" Canvas.Left="18" Canvas.Top="235" HorizontalAlignment="Center" VerticalAlignment="Top" >
+            <Image.RenderTransform>
+                <TranslateTransform x:Name="MoveMyImage5" X="2" Y="2"/>
+            </Image.RenderTransform>
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="Image.MouseDown">
+                    <BeginStoryboard>
+                        <Storyboard AutoReverse="True">
+                            <DoubleAnimation From="20" To="70" Duration="0:0:2" Storyboard.TargetProperty="(Canvas.Left)" AutoReverse="False" />
+
+
+
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
 
     </Canvas>
 </Window>
